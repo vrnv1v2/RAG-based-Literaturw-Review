@@ -1,0 +1,15 @@
+paths:
+  data_dir: "./data"
+  vector_store_path: "./local_faiss_store"
+
+models:
+  embedding: "BAAI/bge-large-en-v1.5"
+  reranker: "cross-encoder/ms-marco-MiniLM-L6-v2"
+  llm: "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+
+parameters:
+  sentences_per_chunk: 4
+  overlap: 1
+  dense_threshold: 0.35
+  rerank_threshold: -1.5
+  max_loops: 2

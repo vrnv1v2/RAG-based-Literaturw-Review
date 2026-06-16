@@ -1,0 +1,10 @@
+torch
+faiss-cpu
+numpy
+pymupdf
+sentence-transformers
+langchain-core
+langgraph
+pydantic
+rank_bm25
+pyyaml
